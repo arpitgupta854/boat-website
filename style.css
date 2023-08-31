@@ -67,6 +67,7 @@ display: flex;
     margin-top: 24px;
     margin-left: 56px;
 }
+
 .right-part{
     display: flex;
     margin-right: 49px;
@@ -114,7 +115,7 @@ padding-left: 14px;
     position: relative;
 }
 .video1-heading b::before{
-    content: '';
+       content: '';
        position: absolute;
        bottom: 0;
        left: 137px;
@@ -123,7 +124,7 @@ padding-left: 14px;
 }
 .container{
     display: flex;
-    
+
     overflow-x:auto;
 }
 .container-video{
@@ -520,6 +521,7 @@ background-color: white;
     margin-top: -25px;
     margin-left: -22px;
     text-align: center;
+    transition: transform 0.1s ease-out;
    
 }
 .cursor2{
@@ -529,6 +531,7 @@ background-color: white;
     border-radius: 50%;
     background-color: #0015f9;
     text-align: center;
+    transition: transform 0.1s ease-out;
 }
 .container::-webkit-scrollbar{
     width: 5px;
